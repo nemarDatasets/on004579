@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004579",
-  "source": "openneuro",
-  "source_id": "ds004579",
+  "pipeline_stage": "validated",
   "title": "Interval Timing Task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Arun Singh arun.singh@usd.edu": {},
     "Rachel Cole rachel-cole@uiowa.edu": {},
@@ -12,21 +12,63 @@
     "Jim Cavanagh jcavanagh@unm.edu": {},
     "Nandakumar Narayanan nandakumar-narayanan@uiowa.edu": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004579.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1101/2022.07.26.22278079",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004579",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004579",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from 139 participants (94 with Parkinson's disease and 45 healthy controls) performing an interval timing task. Participants judged the elapsed time of either 3-second or 7-second intervals while 64-channel EEG was recorded. The study investigates temporal perception and motor response timing in the context of neurodegenerative disease, with potential implications for understanding basal ganglia function in time estimation.",
+  "methods_description": "EEG data were acquired using a 64-channel BrainVision cap during an interval timing task. Participants viewed instructional cues ('Short interval' or 'Long interval') for 1 second, followed by a visual cue (solid box) marking interval onset. Intervals lasted 6 seconds (3-second trials) or 14 seconds (7-second trials), with distractors presented at random intervals. Participants responded via spacebar when they judged the target interval to have elapsed.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "interval timing"
+    },
+    {
+      "term": "Parkinson's disease"
+    },
+    {
+      "term": "temporal perception"
+    },
+    {
+      "term": "motor response"
+    },
+    {
+      "term": "time estimation"
+    }
+  ],
+  "source_hash": "95ad7eb6315e0c0e685bc303f88ff24b6832c1bdf71d9f8d4d811be4fdd7b947"
 }
