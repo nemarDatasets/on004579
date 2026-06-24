@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004579-blue)](https://doi.org/10.82901/nemar.on004579)
+
 This experiment includes 139 subjects: 94 individuals with Parkinsons disease, 
 and 45 controls. Subjects completed  this IntervalTiming task (along with multiple other cognitive tasks) 
 while EEG was recorded with a 64-channel BrainVision cap. This task presented black instructional 
