@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Interval Timing Task",
+  "description": "This dataset comprises EEG recordings from 139 participants (94 with Parkinson's disease and 45 healthy controls) performing an interval timing task. Participants were instructed to judge the passage of either 3-second or 7-second intervals while 64-channel EEG was recorded. The task involved visual cues and keyboard responses, with distractors presented to prevent explicit counting strategies. This dataset provides neurophysiological data for investigating temporal perception and motor timing deficits in Parkinson's disease.",
+  "methods_description": "EEG data were collected using a 64-channel BrainVision cap during an interval timing task. Participants viewed instructional text indicating trial duration (3 or 7 seconds) followed by a visual cue (solid box) marking interval onset. Participants responded via spacebar when they judged the interval to have elapsed. Random distractor vowels were presented during trials to discourage counting strategies.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,27 @@
     "Jim Cavanagh jcavanagh@unm.edu": {},
     "Nandakumar Narayanan nandakumar-narayanan@uiowa.edu": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004579.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "Parkinson's disease"
+    },
+    {
+      "term": "time perception"
+    },
+    {
+      "term": "interval timing"
+    },
+    {
+      "term": "motor response"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1101/2022.07.26.22278079",
       "identifier_type": "DOI",
@@ -32,43 +49,27 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004579",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004579.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "25.9 GB (279 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from 139 participants (94 with Parkinson's disease and 45 healthy controls) performing an interval timing task. Participants judged the elapsed time of either 3-second or 7-second intervals while 64-channel EEG was recorded. The study investigates temporal perception and motor response timing in the context of neurodegenerative disease, with potential implications for understanding basal ganglia function in time estimation.",
-  "methods_description": "EEG data were acquired using a 64-channel BrainVision cap during an interval timing task. Participants viewed instructional cues ('Short interval' or 'Long interval') for 1 second, followed by a visual cue (solid box) marking interval onset. Intervals lasted 6 seconds (3-second trials) or 14 seconds (7-second trials), with distractors presented at random intervals. Participants responded via spacebar when they judged the target interval to have elapsed.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "interval timing"
-    },
-    {
-      "term": "Parkinson's disease"
-    },
-    {
-      "term": "temporal perception"
-    },
-    {
-      "term": "motor response"
-    },
-    {
-      "term": "time estimation"
-    }
-  ],
-  "source_hash": "95ad7eb6315e0c0e685bc303f88ff24b6832c1bdf71d9f8d4d811be4fdd7b947"
+  "source_hash": "e6b16b2d898c9b308c4cee50ab2c844ffaad61e5e685c846aa3957906f3824dd"
 }
