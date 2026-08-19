@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Interval Timing Task",
-  "description": "This dataset comprises EEG recordings from 139 participants (94 with Parkinson's disease and 45 healthy controls) performing an interval timing task. Participants were instructed to judge the passage of either 3-second or 7-second intervals while 64-channel EEG was recorded. The task involved visual cues and keyboard responses, with distractors presented to prevent explicit counting strategies. This dataset provides neurophysiological data for investigating temporal perception and motor timing deficits in Parkinson's disease.",
-  "methods_description": "EEG data were collected using a 64-channel BrainVision cap during an interval timing task. Participants viewed instructional text indicating trial duration (3 or 7 seconds) followed by a visual cue (solid box) marking interval onset. Participants responded via spacebar when they judged the interval to have elapsed. Random distractor vowels were presented during trials to discourage counting strategies.",
+  "description": "This dataset comprises EEG recordings from 139 subjects (94 individuals with Parkinson's disease and 45 controls) performing an Interval Timing task. EEG data were collected with a 64-channel BrainVision system while participants judged short (3-second) and long (7-second) time intervals following visual cues. The dataset is intended to support research into timing perception and its neural correlates in Parkinson's disease.",
+  "methods_description": "EEG was recorded using a 64-channel BrainVision cap while participants performed an interval timing task. Instructional text ('Short interval' or 'Long interval') was displayed for 1 second, followed by a visual cue (a solid box) indicating the start of the interval, lasting 6 s for 3-s trials and 14 s for 7-s trials. Participants pressed a spacebar when they judged the interval had elapsed, without counting, and a distractor vowel appeared at random intervals.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,19 +19,23 @@
       "term": "EEG"
     },
     {
-      "term": "Parkinson's disease"
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "time perception"
+      "term": "Time Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013998"
     },
     {
       "term": "interval timing"
     },
     {
-      "term": "motor response"
+      "term": "cognitive task"
     },
     {
-      "term": "event-related potentials"
+      "term": "BrainVision"
     }
   ],
   "related_identifiers": [
@@ -46,14 +50,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004579",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004579.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004579",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
